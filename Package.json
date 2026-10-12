@@ -1,28 +1,16 @@
 {
-  "name": "6lottery-telegram-bot",
+  "name": "telegram-auto-bet-bot",
   "version": "1.0.0",
-  "description": "Advanced Telegram Auto Betting Bot for 6Lottery, CKLottery and 777BIGWIN",
+  "description": "Telegram Auto Bet Bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js"
-  },
-  "keywords": [
-    "telegram",
-    "telegraf",
-    "lottery",
-    "wingo",
-    "trx",
-    "autobet",
-    "nodejs"
-  ],
-  "author": "Pai",
-  "license": "MIT",
-  "engines": {
-    "node": ">=18"
+    "start": "node index.js"
   },
   "dependencies": {
-    "axios": "^1.11.0",
-    "telegraf": "^4.16.3"
+    "telegraf": "^4.16.3",
+    "axios": "^1.7.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
